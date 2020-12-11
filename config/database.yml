@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: DevcampPortfolio_production
+  pool: 5
+  username: postgres
+  password: 90125468
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: DevcampPortfolio_production_test
+  pool: 5
+  username: postgres
+  password: 90125468
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: DevcampPortfolio_production
+  pool: 5
+  username: postgres
+  password: 90125468
